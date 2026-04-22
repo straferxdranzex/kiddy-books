@@ -5,28 +5,28 @@ export const metadata: Metadata = { title: "Books – Kiddy Books" };
 
 const books = [
   {
-    image: "/images/starkids-shop.jpg",
+    image: "/images/starkids.jpg",
     title: "Star-Kids",
     subtitle: "Solar System Exploration",
     description: "Zooming through the universe faster than the speed of light on their flying scooters and skateboards, these 10 fifth grade astronomy students are on a solar system odyssey. Experiencing extreme dangers, all these 11 year old explorers mostly find this trek very exciting. This 53 page ( approximate 17,000 word) novella is educational in an entertaining way and is very exciting to read for all ages.",
     link: "https://www.amazon.com/Star-Kids-Solar-System-Exploration/dp/B07DX9GLRT/",
   },
   {
-    image: "/images/juvenisle-shop.png",
+    image: "/images/juven-isle.jpg",
     title: "Juven-Isle",
     subtitle: "Washed Ashore",
     description: "CRASH! BANG! BOOM! This ocean's storm sunk their tiny sailboat. Forced to swim to an abandoned isle, these 8 ninth-grade students have to exercise their survival skill This 57 page action-packed book is enjoyable for all ages.",
     link: "https://www.amazon.com/Juven-Isle-Washed-Ashore/dp/B085DNV1PG/",
   },
   {
-    image: "/images/historical-shop.jpg",
+    image: "/images/historical-rhetorical.jpg",
     title: "Historical-Rhetorical",
     subtitle: "Father of his Country",
     description: "Written in poetic verse, \"Historical-Rhetorical\" is a history book series. This pilot book is the biography of George Washington, which includes his involvement in the Revolution, Constitution and his Presidency. This 32 page, illustrated book is a fun read for all ages. This book series' characters are portrayed by 8 year old kids.",
     link: "https://www.amazon.com/Historical-Rhetorical-Father-of-his-Country/dp/B07LGDNT7M/",
   },
   {
-    image: "/images/claymates-shop.png",
+    image: "/images/claymates.jpg",
     title: "CLAYMATES",
     subtitle: "George Washington",
     description: "CLAYMATES PRESENTS is an educational/entertainment trivial book series for all ages. Illustrated in 3-D, these CLAY play MATES are 8 years old. With 135 pages, this first book is the biography of GEORGE WASHINGTON.",
@@ -44,7 +44,7 @@ const books = [
 function BookCard({ book }: { book: (typeof books)[0] }) {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <div style={{ width: "100%", height: 260, display: "flex", alignItems: "flex-start", justifyContent: "flex-start", marginBottom: 16 }}>
+      <div style={{ width: "100%", height: 280, display: "flex", alignItems: "flex-start", justifyContent: "flex-start", marginBottom: 16 }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={book.image} alt={book.title} style={{ maxHeight: "100%", maxWidth: "100%", objectFit: "contain" }} />
       </div>

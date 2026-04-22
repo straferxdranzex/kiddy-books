@@ -7,7 +7,7 @@ export default function PageHeader() {
       </div>
       <div style={{ position: "absolute", right: -20, top: -10, width: 200, height: 160, overflow: "hidden", display: "flex", justifyContent: "flex-end" }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/images/claymates.png" alt="" aria-hidden="true" style={{ width: 160, height: "auto", transform: "rotate(20deg) translate(30px, -20px)", opacity: 0.9 }} />
+        <img src="/images/claymates.jpg" alt="" aria-hidden="true" style={{ width: 160, height: "auto", transform: "rotate(20deg) translate(30px, -20px)", opacity: 0.9 }} />
       </div>
     </div>
   );

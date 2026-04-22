@@ -13,11 +13,11 @@ const alsoLoveBooks = [
     image: "/images/historical-rhetorical.jpg",
     title: "Historical-Rhetorical",
     subtitle: "Father Of His Country",
-    description: 'Written in poetic verse, "Historical-Rhetorical" is a history book series. This pilot book is the biography of George Washington, which includes his involvement in the Revolution, Constitution and his Presidency. This 32 page, illustrated book is a fun read for all ages. This book series\' characters are portrayed by 8 year old kids.',
+    description: "Written in poetic verse, \"Historical-Rhetorical\" is a history book series. This pilot book is the biography of George Washington, which includes his involvement in the Revolution, Constitution and his Presidency. This 32 page, illustrated book is a fun read for all ages. This book series' characters are portrayed by 8 year old kids.",
     link: "https://www.amazon.com/Historical-Rhetorical-Father-of-his-Country/dp/B07LGDNT7M/",
   },
   {
-    image: "/images/claymates.png",
+    image: "/images/claymates.jpg",
     title: "CLAYMATES",
     subtitle: "George washington",
     description: "CLAYMATES PRESENTS is an educational/entertainment trivial book series for all ages. Illustrated in 3-D, these CLAY play MATES are 8 years old. With 135 pages, this first book is the biography of GEORGE WASHINGTON.",
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div style={{ flex: "1 1 300px", display: "flex", justifyContent: "center" }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/juvenisle-cover.png" alt="Juven-Isle: Washed Ashore" style={{ maxHeight: 520, maxWidth: "100%", objectFit: "contain" }} />
+          <img src="/images/juven-isle.jpg" alt="Juven-Isle: Washed Ashore" style={{ maxHeight: 520, maxWidth: "100%", objectFit: "contain" }} />
         </div>
       </section>
 
@@ -60,7 +60,7 @@ export default function Home() {
             You&apos;ll also love
           </h2>
           <div style={{ width: 32, height: 2, background: "#ccc", margin: "0 auto 48px" }} />
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0 24px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0 40px" }}>
             {alsoLoveBooks.map((book) => (
               <div key={book.title} style={{ display: "flex", flexDirection: "column" }}>
                 <div style={{ width: "100%", aspectRatio: "3/4", overflow: "hidden", marginBottom: 20 }}>
