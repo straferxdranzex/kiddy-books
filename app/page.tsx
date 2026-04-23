@@ -7,7 +7,7 @@ const alsoLoveBooks = [
     title: "STAR-KIDS",
     subtitle: "Solar System Exploration",
     description: "Zooming through the universe faster than the speed of light on their flying scooters and skateboards, these 10 fifth grade astronomy students are on a solar system odyssey.",
-    link: "https://www.amazon.com/Star-Kids-Solar-System-Exploration/dp/B07DX9GLRT/",
+    link: "https://www.amazon.com/Star-Kids-System-Exploration-John-Harrington/dp/1482088150",
   },
   {
     image: "/images/historical-rhetorical.jpg",

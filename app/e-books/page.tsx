@@ -9,7 +9,7 @@ const books = [
     title: "Star-Kids",
     subtitle: "Solar System Exploration",
     description: "Zooming through the universe faster than the speed of light on their flying scooters and skateboards, these 10 fifth grade astronomy students are on a solar system odyssey. Experiencing extreme dangers, all these 11 year old explorers mostly find this trek very exciting. This 53 page ( approximate 17,000 word) novella is educational in an entertaining way and is very exciting to read for all ages.",
-    link: "https://www.amazon.com/Star-Kids-Solar-System-Exploration/dp/B07DX9GLRT/",
+    link: "https://www.amazon.com/Star-Kids-System-Exploration-John-Harrington/dp/1482088150",
   },
   {
     image: "/images/juven-isle.jpg",
